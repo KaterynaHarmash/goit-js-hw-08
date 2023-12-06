@@ -22,7 +22,7 @@ form.addEventListener('input', _(function (event) {
 //Зробила саме так, тому що через data[event.target.value]
 // при редагуванні тільки 1 поля
 //значення іншого очищувалось з локал сторейдж
-//(бо запис спрацьовував тільки для поля де проходив івент "інпут")
+//(бо запис спрацьовував тільки для поля де проходив івент "інпут").
     
     data2storage = JSON.stringify(data);
     localStorage.setItem('feedback-form-state', data2storage);
